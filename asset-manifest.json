@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MatchGoats/static/css/main.b13b3fdf.css",
+    "main.js": "/MatchGoats/static/js/main.b36c92b8.js",
+    "static/media/willie.png": "/MatchGoats/static/media/willie.a9456e1d6342d913e636.png",
+    "static/media/smarc.png": "/MatchGoats/static/media/smarc.8f77515e0da302fedba4.png",
+    "static/media/general.png": "/MatchGoats/static/media/general.55317248bc38e9d77847.png",
+    "static/media/jonie.png": "/MatchGoats/static/media/jonie.194a1c45ff33f59c4c5f.png",
+    "static/media/sparky.png": "/MatchGoats/static/media/sparky.ce1e8269b258afe09141.png",
+    "static/media/wolffy.png": "/MatchGoats/static/media/wolffy.6f7a4aba77bea9dc7c84.png",
+    "static/media/tibbie.png": "/MatchGoats/static/media/tibbie.ac4f1c06fcf04edbde08.png",
+    "static/media/weslie.png": "/MatchGoats/static/media/weslie.e8d29135d003fcb39f20.png",
+    "static/media/paddi.png": "/MatchGoats/static/media/paddi.b027f32ea9cc09cb2547.png",
+    "static/media/wolnie.png": "/MatchGoats/static/media/wolnie.df14e867a946b7970e06.png",
+    "static/media/jay.png": "/MatchGoats/static/media/jay.e1f01141ab63f8914a5a.png",
+    "static/media/old.png": "/MatchGoats/static/media/old.43ca657c2c2e30b25874.png",
+    "static/media/bictor_bong.png": "/MatchGoats/static/media/bictor_bong.5daeb9340189dd8a3d05.png",
+    "index.html": "/MatchGoats/index.html",
+    "main.b13b3fdf.css.map": "/MatchGoats/static/css/main.b13b3fdf.css.map",
+    "main.b36c92b8.js.map": "/MatchGoats/static/js/main.b36c92b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b13b3fdf.css",
+    "static/js/main.b36c92b8.js"
+  ]
+}
