@@ -1,38 +1,119 @@
+::before, ::after{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow-wrap: break-word;
+}
+
 .App {
-  text-align: center;
+  background-image: linear-gradient(rgb(141, 211, 235), rgb(70, 204, 137));
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*header css*/
+.header{
+  background-color: wheat;
+  min-height: 17vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header header{
+  font-size: 2rem;
+}
+.header div {
+  padding-top: 7px;
+  font-size: 1.3rem;
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 17px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Main css*/
+.main{
+  height: 84%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 4rem;
+  padding: 3.5rem;
+}
+.scoreboard{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 69rem;
+  font-size: 18px;
+}
+.current-score, .best-score{
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 29px;
+}
+.current-score {
+  background-color: ghostwhite;
+}
+.best-score{
+  background-color: rgb(119, 255, 119);
+}
+.card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover{
+  background-color: gainsboro;
+}
+.card img{
+  display: block;
+  width: 70%;
+}
+.card .text{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*Footer css*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 54, 54);
   color: white;
+  width: 100%;
+  position:static;
+  bottom: 0px;
+  left: 0px;
+  margin-top:20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerImg{
+  width:1.4%;
+  padding-left:15px;
+  padding-right:15px
 }
