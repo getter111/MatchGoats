@@ -1,9 +1,17 @@
-Pleasant Goats Inspired Memory Game 
+# Pleasant Goats React based web app inspired memory game: don't choose the same card twice!  
 
-Built using ReactJS
+[Github Pages](https://getter111.github.io/MatchGoats/)
 
-  •React Hook
-  •State management
-  •HTML
-  •CSS
+# Features:
+
+* Dynamically loaded images
+* Score and High Score
+* Cards are scrambled everytime score increases
+
+# Built with React
+
+* React Hook
+* State management
+* HTML
+* CSS
 
