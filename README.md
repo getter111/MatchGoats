@@ -1,6 +1,6 @@
 # Pleasant Goats React based web app inspired memory game: don't choose the same card twice!  
 
-[Github Pages](https://getter111.github.io/MatchGoats/)
+[Live Demo](https://getter111.github.io/MatchGoats/)
 
 # Features:
 
