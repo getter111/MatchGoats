@@ -10,6 +10,7 @@
 
 # Built with React
 
+* Lifecyle Methods
 * React Hook
 * State management
 * HTML
